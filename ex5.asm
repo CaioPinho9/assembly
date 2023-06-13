@@ -5,3 +5,5 @@ sll $t1, $t8, 4
 and $t1, $t1, $t9 
 ori $s6, $t1, 20
 
+#$s6	22	0x0bada014
+

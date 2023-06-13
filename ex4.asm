@@ -8,7 +8,7 @@ add $s0, $s4, 8 # &Vetor[2]
 
 lw $t0, ($s0)  # $t0 = *Vetor[2]
 add $t0, $t0, 1 # 1 + Vetor[2]
-sll $t0, $t0, 2 # Espaçamento das words do vetor
+sll $t0, $t0, 2 # Espaçamento das words do vetor $t0 *= 4
 
 add $t0, $t0, $s4 # &Vetor[1 + Vetor[2]]
 

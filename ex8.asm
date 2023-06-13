@@ -14,4 +14,4 @@ addi $t0, $t0, 1  # Adciona 1 no $t0
 slt $t3, $t0, $a1 # se t0 for do menor que o tamanho do vetor continua no loop
 bne $t3, $zero, loop
 
-# ou seja esse codigo serve para zerar um vetor
+# ou seja esse codigo é um FOR que serve para zerar um vetor
